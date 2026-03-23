@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recommended for You</title>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mdm2.css">
+</head>
+<body>
+
+<header class="page-header">
+  <div class="logo">amázon <span>YOUR STORE</span></div>
+  <div class="header-search">
+    <input type="text" placeholder="Search products, brands and more…" />
+    <button>🔍</button>
+  </div>
+</header>
+
+<div class="main">
+
+  <div class="pills" id="pills">
+    <div class="pill active">All</div>
+    <div class="pill">Electronics</div>
+    <div class="pill">Books</div>
+    <div class="pill">Home & Kitchen</div>
+    <div class="pill">Fashion</div>
+    <div class="pill">Sports</div>
+    <div class="pill">Beauty</div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">Recommended <span>for You</span></div>
+    <a href="#" class="see-all">See all recommendations →</a>
+  </div>
+
+  <div class="carousel-outer">
+    <button class="nav-btn prev" onclick="scroll('track1', -220)">‹</button>
+    <div class="carousel-track" id="track1">
+
+      <div class="card">
+        <div class="badge">−38%</div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&q=80" alt="Watch" />
+        <div class="card-body">
+          <div class="card-brand">Fossil</div>
+          <div class="card-name">Gen 6 Smartwatch with Heart Rate Monitor</div>
+          <div class="stars"><span class="stars-icons">★★★★★</span><span class="stars-count">4.5 (3,842)</span></div>
+          <div class="price-row">
+            <div class="price-main"><sup>₹</sup>8,999</div>
+            <div class="price-original">₹14,499</div>
+          </div>
+          <div class="price-save">Save ₹5,500</div>
+          <div class="delivery">FREE delivery <span>by Tomorrow</span></div>
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="badge best">Best Seller</div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&q=80" alt="Headphones" />
+        <div class="card-body">
+          <div class="card-brand">Sony</div>
+          <div class="card-name">WH-1000XM5 Noise Cancelling Headphones</div>
+          <div class="stars"><span class="stars-icons">★★★★★</span><span class="stars-count">4.8 (12,005)</span></div>
+          <div class="price-row">
+            <div class="price-main"><sup>₹</sup>24,990</div>
+            <div class="price-original">₹34,990</div>
+          </div>
+          <div class="price-save">Save ₹10,000</div>
+          <div class="delivery">FREE delivery <span>by Tomorrow</span></div>
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="badge new">New</div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=300&q=80" alt="Shoes" />
+        <div class="card-body">
+          <div class="card-brand">Nike</div>
+          <div class="card-name">Air Max 270 Running Shoes</div>
+          <div class="stars"><span class="stars-icons">★★★★☆</span><span class="stars-count">4.3 (7,221)</span></div>
+          <div class="price-row">
+            <div class="price-main"><sup>₹</sup>6,499</div>
+            <div class="price-original">₹9,999</div>
+          </div>
+          <div class="price-save">Save ₹3,500</div>
+          <div class="delivery">FREE delivery <span>in 2 days</span></div>
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=300&q=80" alt="Camera" />
+        <div class="card-body">
+          <div class="card-brand">Canon</div>
+          <div class="card-name">EOS M50 Mark II Mirrorless Camera</div>
+          <div class="stars"><span class="stars-icons">★★★★★</span><span class="stars-count">4.7 (5,560)</span></div>
+          <div class="price-row">
+            <div class="price-main"><sup>₹</sup>51,990</div>
+            <div class="price-original">₹64,990</div>
+          </div>
+          <div class="price-save">Save ₹13,000</div>
+          <div class="delivery">FREE delivery <span>by Thursday</span></div>
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="badge">−25%</div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=300&q=80" alt="Backpack" />
+        <div class="card-body">
+          <div class="card-brand">Wildcraft</div>
+          <div class="card-name">32L Hiking Backpack Waterproof</div>
+          <div class="stars"><span class="stars-icons">★★★★☆</span><span class="stars-count">4.2 (2,180)</span></div>
+          <div class="price-row">
+            <div class="price-main"><sup>₹</sup>1,899</div>
+            <div class="price-original">₹2,499</div>
+          </div>
+          <div class="price-save">Save ₹600</div>
+          <div class="delivery">FREE delivery <span>by Tomorrow</span></div>
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&q=80" alt="Book" />
+        <div class="card-body">
+          <div class="card-brand">Penguin</div>
+          <div class="card-name">Atomic Habits — James Clear</div>
+          <div class="stars"><span class="stars-icons">★★★★★</span><span class="stars-count">4.9 (89,401)</span></div>
+          <div class="price-row">
+            <div class="price-main"><sup>₹</sup>399</div>
+            <div class="price-original">₹799</div>
+          </div>
+          <div class="price-save">Save ₹400</div>
+          <div class="delivery">FREE delivery <span>by Tomorrow</span></div>
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="badge best">Best Seller</div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1575377427642-087cf684f29d?w=300&q=80" alt="Bottle" />
+        <div class="card-body">
+          <div class="card-brand">Milton</div>
+          <div class="card-name">Thermosteel Flip Lid Flask 500ml</div>
+          <div class="stars"><span class="stars-icons">★★★★☆</span><span class="stars-count">4.4 (14,388)</span></div>
+          <div class="price-row">
+            <div class="price-main"><sup>₹</sup>649</div>
+            <div class="price-original">₹999</div>
+          </div>
+          <div class="price-save">Save ₹350</div>
+          <div class="delivery">FREE delivery <span>by Tomorrow</span></div>
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+    </div>
+    <button class="nav-btn next" onclick="scroll('track1', 220)">›</button>
+  </div>
+
+  <div class="section-2">
+    <div class="section-header">
+      <div class="section-title">Based on your <span>Browsing History</span></div>
+      <a href="#" class="see-all">View all →</a>
+    </div>
+
+    <div class="carousel-outer">
+      <button class="nav-btn prev" onclick="scroll('track2', -160)">‹</button>
+      <div class="carousel-track" id="track2">
+
+        <div class="skinny-card">
+          <img class="skinny-img" src="https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?w=200&q=80" alt="Laptop" />
+          <div class="skinny-name">MacBook Air M2</div>
+          <div class="skinny-price">₹1,14,900</div>
+        </div>
+
+        <div class="skinny-card">
+          <img class="skinny-img" src="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=200&q=80" alt="Phone" />
+          <div class="skinny-name">iPhone 16 Pro 256GB</div>
+          <div class="skinny-price">₹1,19,900</div>
+        </div>
+
+        <div class="skinny-card">
+          <img class="skinny-img" src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=200&q=80" alt="Bag" />
+          <div class="skinny-name">Travel Duffel Bag 60L</div>
+          <div class="skinny-price">₹2,199</div>
+        </div>
+
+        <div class="skinny-card">
+          <img class="skinny-img" src="https://images.unsplash.com/photo-1552168324-d612d77725e3?w=200&q=80" alt="Sunglasses" />
+          <div class="skinny-name">Ray-Ban Aviator Classic</div>
+          <div class="skinny-price">₹7,890</div>
+        </div>
+
+        <div class="skinny-card">
+          <img class="skinny-img" src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=200&q=80" alt="Yoga mat" />
+          <div class="skinny-name">TPE Yoga Mat 6mm</div>
+          <div class="skinny-price">₹899</div>
+        </div>
+
+        <div class="skinny-card">
+          <img class="skinny-img" src="https://images.unsplash.com/photo-1530731141654-5993c3016c77?w=200&q=80" alt="Tablet" />
+          <div class="skinny-name">iPad Air 11" M2 256GB</div>
+          <div class="skinny-price">₹79,900</div>
+        </div>
+
+        <div class="skinny-card">
+          <img class="skinny-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80" alt="Shoes" />
+          <div class="skinny-name">Adidas Ultraboost 22</div>
+          <div class="skinny-price">₹9,499</div>
+        </div>
+
+        <div class="skinny-card">
+          <img class="skinny-img" src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=200&q=80" alt="Keyboard" />
+          <div class="skinny-name">Mechanical Keyboard RGB</div>
+          <div class="skinny-price">₹3,299</div>
+        </div>
+
+      </div>
+      <button class="nav-btn next" onclick="scroll('track2', 160)">›</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function scroll(id, amount) {
+    document.getElementById(id).scrollBy({ left: amount, behavior: 'smooth' });
+  }
+
+  document.querySelectorAll('.pill').forEach(p => {
+    p.addEventListener('click', () => {
+      document.querySelectorAll('.pill').forEach(x => x.classList.remove('active'));
+      p.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
